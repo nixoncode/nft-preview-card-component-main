@@ -72,8 +72,32 @@ section.preview {
     border-radius: 0.5rem;
 }
 
-.card-image img {
+.card-image {
+    position: relative;
+}
+.card-image img,
+.card-image a.hover {
     border-radius: 0.5rem;
+}
+
+.card-image a.hover {
+    position: absolute;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    height: 350px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.card-image a.hover svg {
+    opacity: 1;
+}
+
+.card-image a.hover:hover {
+    opacity: 1;
 }
 
 .card-title {
