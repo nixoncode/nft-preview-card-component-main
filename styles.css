@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* layout widths */
+    --break-mobile: 375px;
+    --break-desktop: 1440px;
+
+    /* primary colors */
+    --color-blue: hsl(215, 51%, 70%);
+    --color-cyan: hsl(178, 100%, 50%);
+
+    /* neutral colors */
+    --color-blue-700: hsl(215, 32%, 27%);
+    --color-blue-800: hsl(216, 50%, 16%);
+    --color-blue-900: hsl(217, 54%, 11%);
+
+    --color-white: hsl(0, 0%, 100%);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+html {
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
