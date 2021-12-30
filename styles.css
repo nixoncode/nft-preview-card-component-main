@@ -78,6 +78,7 @@ section.preview {
 .card-image img,
 .card-image a.hover {
     border-radius: 0.5rem;
+    min-height: 350px;
 }
 
 .card-image a.hover {
