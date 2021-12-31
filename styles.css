@@ -27,6 +27,7 @@
 html {
     font-size: 18px;
     font-family: "Outfit", sans-serif;
+    font-weight: 400;
 }
 
 img {
@@ -70,6 +71,7 @@ section.preview {
     padding: 1rem;
     margin: 1rem;
     border-radius: 0.5rem;
+    box-shadow: hsla(0, 0%, 0%, 0.2) 0px 7px 29px 0px;
 }
 
 .card-image {
@@ -102,7 +104,7 @@ section.preview {
 }
 
 .card-title {
-    font-weight: 600;
+    font-weight: 400;
     margin: 1rem 0;
     font-size: 1.4em;
 }
@@ -113,6 +115,8 @@ section.preview {
 .card-subtitle {
     margin-bottom: 1rem;
     color: var(--color-blue);
+    font-weight: 300;
+    line-height: 1.8;
 }
 
 .card-content {
@@ -132,6 +136,7 @@ section.preview {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: 300;
 }
 
 .nft-coin svg,
